@@ -1,5 +1,5 @@
 # Python-Home-Access-Interface
-A program that scrapes data from Home Access Center to form statistics
+A program that scrapes data from Home Access Center to form statistics and useful data.
 
 Assignment code added. Will be uploaded soon after further testing.
 
