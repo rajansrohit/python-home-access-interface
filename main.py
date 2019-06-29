@@ -32,4 +32,4 @@ while True:
     elif commandParsed[0] == "quit" or commandParsed[0] == "exit":
         break
     else:
-        print ("command not recognized")
+        print ("Command not recognized")
