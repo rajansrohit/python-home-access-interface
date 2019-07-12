@@ -4,8 +4,7 @@ from bs4 import BeautifulSoup
 
 class CalcGrade:
     def __init__(self, username, password):
-        self.username = username
-        self.password = password
+        
 
         formData = {'Database': 10, 'LogOnDetails.UserName': self.username, 'LogOnDetails.Password': self.password}
         
