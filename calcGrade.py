@@ -7,7 +7,7 @@ class CalcGrade:
         self.username = username
         self.password = password
 
-        formData = {'Database': 10, 'LogOnDetails.UserName': self.username, 'LogOnDetails.Password': self.password}
+        formData = {}
         
         with requests.Session() as s:
             r = s.post("https://hac.friscoisd.org/HomeAccess/Account/LogOn?ReturnUrl=%2fHomeAccess%2f", data = formData)
