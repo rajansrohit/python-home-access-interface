@@ -19,7 +19,8 @@ class App():
         print("GPA:" + str(gpa / counter))
         print ("\n\n")
 
-
+username = input("Please enter your username: ")
+password = input("Please enter your password: ")
 
 hac = App(username, password)
 
