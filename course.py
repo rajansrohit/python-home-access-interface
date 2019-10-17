@@ -1,5 +1,5 @@
 import requests
-
+# import assignment (change soon to come)
 from bs4 import BeautifulSoup
 
 class Course:
