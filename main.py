@@ -25,6 +25,7 @@ password = input("Please enter your password: ")
 hac = App(username, password)
 
 while True:
+    # Ask for input
     command = input("What would you like to see? ")
     commandParsed = command.lower().split(" ")
     if commandParsed[0] == "grades" or commandParsed[0] == "grade" or commandParsed[0] == "class" or commandParsed[0] == "classes":
